@@ -18,6 +18,6 @@ def output(model,img_path,size):
         print("Dương tính")
     elif result==0:
         print("Âm tính")
-img = mpimg.imread('loitoiphoi.jpg')
+img = mpimg.imread('test.jpeg')
 plt.imshow(img)
-output(virus,'loitoiphoi.jpg',(224,224))
+output(virus,'test.jpeg',(224,224))
